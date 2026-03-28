@@ -1,4 +1,4 @@
-import sadhyaImg from "@/assets/sadhya.png";
+import sadhyaImg from "@/assets/sadhya.jpg";
 import backdropImg from "@/assets/image.png";
 import { MapPin, Calendar, Clock, Phone, Heart, Star, Sparkles, Gift, PartyPopper, Cake, Music, Download } from "lucide-react";
 import CountdownTimer from "@/components/CountdownTimer";
