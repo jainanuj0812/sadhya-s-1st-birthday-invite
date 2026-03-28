@@ -105,6 +105,9 @@ const Index = () => {
         <div className="h-px w-16 bg-gradient-to-l from-transparent to-primary/40" />
       </div>
 
+      {/* Countdown Timer */}
+      <CountdownTimer />
+
       {/* Event Details */}
       <section className="max-w-md mx-auto px-6 py-4 space-y-4">
         <h2 className="text-center text-sm font-bold text-muted-foreground tracking-[0.3em] uppercase mb-2">
