@@ -1,5 +1,6 @@
 import sadhyaImg from "@/assets/sadhya.jpg";
 import { MapPin, Calendar, Clock, Phone, Heart, Star, Sparkles, Gift, PartyPopper, Cake, Music } from "lucide-react";
+import CountdownTimer from "@/components/CountdownTimer";
 
 const WHATSAPP_NUMBER = "919XXXXXXXXX"; // Replace with your WhatsApp number
 const RSVP_MESSAGE = encodeURIComponent(
