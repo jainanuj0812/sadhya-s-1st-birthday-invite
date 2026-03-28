@@ -116,7 +116,7 @@ const Index = () => {
         <DetailCard
           icon={<Calendar className="w-5 h-5 text-primary" />}
           title="Date"
-          value="Saturday, 15th April 2026"
+          value="Thursday, 23rd April 2026"
           emoji="📅"
         />
         <DetailCard
@@ -128,8 +128,8 @@ const Index = () => {
         <DetailCard
           icon={<MapPin className="w-5 h-5 text-primary" />}
           title="Venue"
-          value="[Your Venue Name Here]"
-          subtitle="[Full Address Line 1, Line 2, City - Pincode]"
+          value="Seasons 24 Banquets"
+          subtitle="Landmark 24, Wagholi, Pune, SH Nagar, Road, Wagholi, Pune, Maharashtra 412207"
           emoji="📍"
         />
       </section>
@@ -143,7 +143,7 @@ const Index = () => {
           </div>
           <div className="w-full h-48 bg-muted flex items-center justify-center">
             <a
-              href="https://maps.google.com/?q=YOUR+ADDRESS+HERE"
+              href="https://share.google/WpcxNhhkopoJyVVC7"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors"

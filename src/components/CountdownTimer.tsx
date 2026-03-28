@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const PARTY_DATE = new Date("2026-04-15T16:00:00");
+const PARTY_DATE = new Date("2026-04-23T16:00:00");
 
 const CountdownTimer = () => {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
