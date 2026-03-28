@@ -87,3 +87,8 @@
     font-family: 'Quicksand', sans-serif;
   }
 }
+
+/* PDF-only elements are hidden by default */
+.pdf-only {
+  display: none;
+}
