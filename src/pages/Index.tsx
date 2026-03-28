@@ -1,5 +1,6 @@
 import sadhyaImg from "@/assets/sadhya.jpg";
 import { MapPin, Calendar, Clock, Phone, Heart, Star, Sparkles, Gift, PartyPopper, Cake, Music } from "lucide-react";
+import CountdownTimer from "@/components/CountdownTimer";
 
 const WHATSAPP_NUMBER = "919XXXXXXXXX"; // Replace with your WhatsApp number
 const RSVP_MESSAGE = encodeURIComponent(
@@ -103,6 +104,9 @@ const Index = () => {
         <Music className="w-5 h-5 text-primary" />
         <div className="h-px w-16 bg-gradient-to-l from-transparent to-primary/40" />
       </div>
+
+      {/* Countdown Timer */}
+      <CountdownTimer />
 
       {/* Event Details */}
       <section className="max-w-md mx-auto px-6 py-4 space-y-4">
